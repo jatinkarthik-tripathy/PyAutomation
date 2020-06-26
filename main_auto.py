@@ -24,5 +24,6 @@ elif sys.argv[1] == "work":
     proj_dir = os.path.join(PROJECTS_PATH, proj_name)
     os.mkdir(proj_dir)
     os.chdir(proj_dir)
+    os.system("start cmd.exe")
     os.system("code .")
     os.system(f"echo {proj_name} created.")

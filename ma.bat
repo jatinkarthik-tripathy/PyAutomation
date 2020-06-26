@@ -8,3 +8,5 @@ If "%1"=="" (
 ) else (
     python D:\Projects\PyAutomation\main_auto.py %fn1% %fn2%
 )
+timeout 5 >nul
+exit
