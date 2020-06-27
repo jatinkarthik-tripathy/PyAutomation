@@ -1,11 +1,13 @@
 import os
 import sys
 import webbrowser as wb
+from time import sleep
 
 PROJECTS_PATH = "D:/Projects/"
 
 if sys.argv[1] == "start":
     os.system("explorer")
+    sleep(5)
     if sys.argv[2] == "play":
         wb.open_new("https://www.google.com/")
         wb.open("https://www.youtube.com/")
