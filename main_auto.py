@@ -3,7 +3,7 @@ import sys
 import webbrowser as wb
 from time import sleep
 
-PROJECTS_PATH = "D:/Projects/"
+PROJECTS_PATH = "F:/Projects/"
 
 if sys.argv[1] == "start":
     os.system("explorer")

@@ -7,6 +7,6 @@ set fn3=%3
 If "%1"=="" (
     echo "error"
 ) else (
-    python D:\Projects\PyAutomation\main_auto.py %fn1% %fn2% %fn3%
+    python F:\Projects\PyAutomation\main_auto.py %fn1% %fn2% %fn3%
 )
 exit
